@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(255, 0, 247);
+}
+nav ul li a {
+    color: black;
+    position: relative;
+    padding: 5px 0px;
+}
+
+nav ul li a:hover {
+    color:white;
+}
+nav ul li a:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background:white;
+    transition: 0.3s;
+    bottom: 0;
+}
+nav ul li a:hover:after {
+    width: 100%;
+}
+.btn{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all 0.4s ease-in-out;
+    background-size: 152% 100%;
+    background: hotpink;
+    border: 2px solid grey;
+    color: white;
+}
+.btn:hover{
+    background: orangered;
+    border-color:orangered;
+    color:black;
+}
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+    background-color:white; 
+    background-size: cover;  
+
+}
+
+
+.Portifolio-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+    background-color: rgb(81, 199, 238); 
+}
+
+
+
+.About-container{
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+    background-color: rgb(252, 96, 174); 
+
+}
+
+.My-story-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+    background-color:rgb(81, 199, 238) ;
+}
+
+
+.contact-container{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+    background-color:   rgb(252, 96, 174);
+}
+
+
+
+.footer-section{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+    background-color:  rgb(252, 96, 174) ;
+    
+}
+
+a{
+    color: white;
+}
